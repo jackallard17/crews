@@ -1,12 +1,12 @@
 
-namespace crews.Models
+namespace Crews.Models
 {
     public class Task
     {
-        string Name {get; set;}
+        public string Name {get; set;}
 
-        string Description {get; set;}
+        public string Description {get; set;}
 
-        bool completed {get; set;}
+        public bool completed {get; set;}
     }
 }

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace crews.Models
+namespace Crews.Models
 
 {
     public class DataContext : DbContext

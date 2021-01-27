@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace crews.Models
+namespace Crews.Models
 {
     class Rotation 
     {
