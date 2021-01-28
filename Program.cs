@@ -23,7 +23,8 @@ namespace Crews
             switch (args[0])
             {
                 case "adduser":
-                    userController.addUser(args[1]);
+                    User newUser = new User(){Name = args[1]};
+                    userController.addUser(newUser);
                     break;
 
                 case "listusers":
